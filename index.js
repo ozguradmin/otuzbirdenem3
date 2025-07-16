@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const REPLIT_URL = "https://95f75f03-f2f2-40eb-a0b1-abc482b9d3e6-00-w3pl85uymqal.pike.replit.dev:8080/"; // 👈 burayı değiştir!
+const REPLIT_URL = "https://otuzbirdeneme2.onrender.com"; // 👈 burayı değiştir!
 
 app.get("/", (req, res) => {
   res.send("Ping bot aktif ✅");
