@@ -19,6 +19,6 @@ setInterval(() => {
   fetch(REPLIT_URL)
     .then(() => console.log("🔁 Replit pinglendi"));
 
-  fetch("https://ping-bot-xxxx.onrender.com") // 👈 kendi Render URL’n olacak
+  fetch("https://otuzbirdenem3.onrender.com/") // 👈 kendi Render URL’n olacak
     .then(() => console.log("🔁 Render pinglendi"));
 }, 60 * 1000);
